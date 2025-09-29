@@ -8,7 +8,7 @@ Script Purpose:
 	If the database exists, it dropped and recreated. Additionally, the scipt sets up three schemas
 	within the database: 'bronze', 'sliver', and 'gold'.
 
-Warning:
+WARNING:
 	Running this script will drop the entire 'DataWarehouse' database if it exists.
 	All data in the database will be permenantly deleted. Proceed with caution
 	and ensure you have proper backups before running this script.
